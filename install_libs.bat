@@ -1,0 +1,13 @@
+@echo off
+echo "Installing python libarys.."
+py -m pip install "opencv-python"
+py -m pip install "python-chess"
+py -m pip install "pyautogui"
+py -m pip install "mss"
+py -m pip install "numpy"
+py -m pip install "pyttsx3"
+py -m pip install "scikit-image"
+py -m pip install "pygrabber"
+py -m pip install "mac-say"
+py -m pip install "berserk"
+echo "Finished. You should be able to run the program without problems."
